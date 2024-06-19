@@ -142,7 +142,6 @@ task doRelease {
     dependsOn(
         'checkLastVersionValue',
         'asciidoctor',
-        'gitPublishCopy',
         'gitPublishPush'
     )
 }
@@ -177,4 +176,8 @@ model {
     tasks.unSnapshotVersion {
         dependsOn updateLastVersionValueTask
     }
+    
+    tasks.gitPublishCopy {
+    	dependsOn asciidoctor
+   	}
 }
