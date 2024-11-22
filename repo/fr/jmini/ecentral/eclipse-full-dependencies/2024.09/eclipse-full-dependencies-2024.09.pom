@@ -498,6 +498,25 @@
     <org-eclipse-platform.version>4.33.0</org-eclipse-platform.version>
     <org-eclipse-platform-doc-isv.version>4.33.0</org-eclipse-platform-doc-isv.version>
     <org-eclipse-platform-doc-user.version>4.33.0</org-eclipse-platform-doc-user.version>
+    <org-eclipse-rap-filedialog.version>4.0.0</org-eclipse-rap-filedialog.version>
+    <org-eclipse-rap-fileupload.version>4.0.0</org-eclipse-rap-fileupload.version>
+    <org-eclipse-rap-http-registry.version>4.0.0</org-eclipse-rap-http-registry.version>
+    <org-eclipse-rap-http-servlet.version>4.0.0</org-eclipse-rap-http-servlet.version>
+    <org-eclipse-rap-http-servletbridge.version>4.0.0</org-eclipse-rap-http-servletbridge.version>
+    <org-eclipse-rap-jface.version>4.0.0</org-eclipse-rap-jface.version>
+    <org-eclipse-rap-jface-databinding.version>4.0.0</org-eclipse-rap-jface-databinding.version>
+    <org-eclipse-rap-nebula-jface-gridviewer.version>4.0.0</org-eclipse-rap-nebula-jface-gridviewer.version>
+    <org-eclipse-rap-nebula-widgets-grid.version>4.0.0</org-eclipse-rap-nebula-widgets-grid.version>
+    <org-eclipse-rap-nebula-widgets-richtext.version>4.0.0</org-eclipse-rap-nebula-widgets-richtext.version>
+    <org-eclipse-rap-rwt.version>4.0.0</org-eclipse-rap-rwt.version>
+    <org-eclipse-rap-rwt-osgi.version>4.0.0</org-eclipse-rap-rwt-osgi.version>
+    <org-eclipse-rap-rwt-testfixture.version>4.0.0</org-eclipse-rap-rwt-testfixture.version>
+    <org-eclipse-rap-servletbridge.version>4.0.0</org-eclipse-rap-servletbridge.version>
+    <org-eclipse-rap-ui.version>4.0.0</org-eclipse-rap-ui.version>
+    <org-eclipse-rap-ui-cheatsheets.version>4.0.0</org-eclipse-rap-ui-cheatsheets.version>
+    <org-eclipse-rap-ui-forms.version>4.0.0</org-eclipse-rap-ui-forms.version>
+    <org-eclipse-rap-ui-views.version>4.0.0</org-eclipse-rap-ui-views.version>
+    <org-eclipse-rap-ui-workbench.version>4.0.0</org-eclipse-rap-ui-workbench.version>
     <org-eclipse-rcp.version>4.33.0</org-eclipse-rcp.version>
     <org-eclipse-scout-sdk-s2e.version>13.0.41</org-eclipse-scout-sdk-s2e.version>
     <org-eclipse-scout-sdk-s2e-doc.version>13.0.41</org-eclipse-scout-sdk-s2e-doc.version>
@@ -3016,6 +3035,101 @@
         <groupId>org.eclipse.platform</groupId>
         <artifactId>org.eclipse.platform.doc.user</artifactId>
         <version>${org-eclipse-platform-doc-user.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.filedialog</artifactId>
+        <version>${org-eclipse-rap-filedialog.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.fileupload</artifactId>
+        <version>${org-eclipse-rap-fileupload.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.http.registry</artifactId>
+        <version>${org-eclipse-rap-http-registry.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.http.servlet</artifactId>
+        <version>${org-eclipse-rap-http-servlet.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.http.servletbridge</artifactId>
+        <version>${org-eclipse-rap-http-servletbridge.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.jface</artifactId>
+        <version>${org-eclipse-rap-jface.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.jface.databinding</artifactId>
+        <version>${org-eclipse-rap-jface-databinding.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.nebula.jface.gridviewer</artifactId>
+        <version>${org-eclipse-rap-nebula-jface-gridviewer.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.nebula.widgets.grid</artifactId>
+        <version>${org-eclipse-rap-nebula-widgets-grid.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.nebula.widgets.richtext</artifactId>
+        <version>${org-eclipse-rap-nebula-widgets-richtext.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.rwt</artifactId>
+        <version>${org-eclipse-rap-rwt.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.rwt.osgi</artifactId>
+        <version>${org-eclipse-rap-rwt-osgi.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.rwt.testfixture</artifactId>
+        <version>${org-eclipse-rap-rwt-testfixture.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.servletbridge</artifactId>
+        <version>${org-eclipse-rap-servletbridge.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.ui</artifactId>
+        <version>${org-eclipse-rap-ui.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.ui.cheatsheets</artifactId>
+        <version>${org-eclipse-rap-ui-cheatsheets.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.ui.forms</artifactId>
+        <version>${org-eclipse-rap-ui-forms.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.ui.views</artifactId>
+        <version>${org-eclipse-rap-ui-views.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.eclipse.rap</groupId>
+        <artifactId>org.eclipse.rap.ui.workbench</artifactId>
+        <version>${org-eclipse-rap-ui-workbench.version}</version>
       </dependency>
       <dependency>
         <groupId>org.eclipse.platform</groupId>

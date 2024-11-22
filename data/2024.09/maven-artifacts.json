@@ -2365,6 +2365,101 @@
     "version": "4.33.0"
   },
   {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.filedialog",
+    "version": "4.0.0"
+  },
+  {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.fileupload",
+    "version": "4.0.0"
+  },
+  {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.http.registry",
+    "version": "4.0.0"
+  },
+  {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.http.servlet",
+    "version": "4.0.0"
+  },
+  {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.http.servletbridge",
+    "version": "4.0.0"
+  },
+  {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.jface",
+    "version": "4.0.0"
+  },
+  {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.jface.databinding",
+    "version": "4.0.0"
+  },
+  {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.nebula.jface.gridviewer",
+    "version": "4.0.0"
+  },
+  {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.nebula.widgets.grid",
+    "version": "4.0.0"
+  },
+  {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.nebula.widgets.richtext",
+    "version": "4.0.0"
+  },
+  {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.rwt",
+    "version": "4.0.0"
+  },
+  {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.rwt.osgi",
+    "version": "4.0.0"
+  },
+  {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.rwt.testfixture",
+    "version": "4.0.0"
+  },
+  {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.servletbridge",
+    "version": "4.0.0"
+  },
+  {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.ui",
+    "version": "4.0.0"
+  },
+  {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.ui.cheatsheets",
+    "version": "4.0.0"
+  },
+  {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.ui.forms",
+    "version": "4.0.0"
+  },
+  {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.ui.views",
+    "version": "4.0.0"
+  },
+  {
+    "groupId": "org.eclipse.rap",
+    "artifactId": "org.eclipse.rap.ui.workbench",
+    "version": "4.0.0"
+  },
+  {
     "groupId": "org.eclipse.platform",
     "artifactId": "org.eclipse.rcp",
     "version": "4.33.0"
