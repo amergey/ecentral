@@ -616,7 +616,7 @@
   },
   {
     "groupId": "org.apache.httpcomponents",
-    "artifactId": "httpcore-nio",
+    "artifactId": "httpcore-osgi",
     "version": "4.4.16"
   },
   {

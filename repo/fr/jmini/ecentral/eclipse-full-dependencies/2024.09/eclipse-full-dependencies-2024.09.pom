@@ -148,7 +148,7 @@
     <httpcore5.version>5.2.3</httpcore5.version>
     <httpcore5-h2.version>5.2.3</httpcore5-h2.version>
     <httpclient-osgi.version>4.5.14</httpclient-osgi.version>
-    <httpcore-nio.version>4.4.16</httpcore-nio.version>
+    <httpcore-osgi.version>4.4.16</httpcore-osgi.version>
     <reload4j.version>1.2.25</reload4j.version>
     <lucene-analysis-common.version>9.11.1</lucene-analysis-common.version>
     <lucene-analysis-smartcn.version>9.11.1</lucene-analysis-smartcn.version>
@@ -1288,8 +1288,8 @@
       </dependency>
       <dependency>
         <groupId>org.apache.httpcomponents</groupId>
-        <artifactId>httpcore-nio</artifactId>
-        <version>${httpcore-nio.version}</version>
+        <artifactId>httpcore-osgi</artifactId>
+        <version>${httpcore-osgi.version}</version>
       </dependency>
       <dependency>
         <groupId>ch.qos.reload4j</groupId>

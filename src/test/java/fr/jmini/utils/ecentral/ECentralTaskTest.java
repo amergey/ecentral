@@ -311,7 +311,7 @@ class ECentralTaskTest {
         List<MavenMapping> mavenMappings = ECentralTask.readMavenMappings();
 
         {
-            MavenArtifact mavenArtifact = ECentralTask.toMavenArtifact(new BndEntry("org.apache.httpcomponents.httpcore", "4.4.16.v20221207-1049"), mavenMappings)
+            MavenArtifact mavenArtifact = ECentralTask.toMavenArtifact(new BndEntry("org.apache.httpcomponents.httpcore", "4.4.16"), mavenMappings)
                     .orElseThrow();
             assertThat(mavenArtifact.getGroupId())
                     .as("groupId")

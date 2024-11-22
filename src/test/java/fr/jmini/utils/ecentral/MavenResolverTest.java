@@ -36,6 +36,22 @@ class MavenResolverTest {
     }
 
     @Test
+    void testResolveApacheHttpCore() throws IOException {
+        MavenArtifact jartifact = new MavenArtifact("org.apache.httpcomponents", "httpcore-osgi", "4.4.16");
+
+        String urlInMavenCentral = Maven.jarMavenCentralUrl(jartifact);
+
+        File result = Unirest.get(urlInMavenCentral)
+                .asFile(Files.createTempFile("testMaven", ".jar")
+                        .toAbsolutePath()
+                        .toString(), StandardCopyOption.REPLACE_EXISTING)
+                .getBody();
+
+        MavenResolver resolver = new MavenResolver();
+        assertThat(resolver.resolve(result.toPath())).isEqualTo(jartifact);
+    }
+
+    @Test
     void testResolvePotential() throws IOException {
         MavenArtifact osgiXmlArtifact = new MavenArtifact("org.osgi", "org.osgi.util.xml", "1.0.2");
 
