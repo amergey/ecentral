@@ -11,6 +11,20 @@ import org.junit.jupiter.api.Test;
  * This test class run the code for different update sites.
  */
 class RunTest {
+    @Test
+    void run_2025_03() throws Exception {
+        Input input = new Input()
+                .withReleaseName("2025-03")
+                .withArtifactId("eclipse-full-dependencies");
+        ECentralTask task = new ECentralTask(input);
+        task.run();
+        String mavenArtifacts = Files.readString(task.getMavenArtifactsFile(), StandardCharsets.UTF_8);
+
+        assertThatJson(mavenArtifacts).isArray()
+                .size()
+                .isEqualTo(task.parseBndOutput()
+                        .size());
+    }
 
     @Test
     void run_2024_12() throws Exception {
